@@ -60,13 +60,6 @@ int SumLineElements(int[,] matrix, int i)
     return sumLine;
 }
 
-int InputNumbers(string input)
-{
-    Console.Write(input);
-    int output = int.Parse(Console.ReadLine());
-    return output;
-}
-
 Console.WriteLine("Введите число строк m:");
 int m = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число столбцов n:");
